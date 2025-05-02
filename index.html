@@ -79,44 +79,9 @@
     .service-card:hover {
       transform: scale(1.05);
     }
-    .image-banner {
-      position: fixed;
-      bottom: 0;
-      right: 0;
-      max-width: 200px;
-      margin: 20px;
-      opacity: 0.3;
-      transition: opacity 0.3s ease;
-      border-radius: 12px;
-    }
-    .image-banner:hover {
-      opacity: 0.8;
-    }
-    .iframe-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100vh;
-      width: 50vw;
-      z-index: -1;
-      opacity: 0.15;
-    }
-    .iframe-container iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-    .bottom-image {
-      width: 100%;
-      margin-top: 100px;
-    }
   </style>
 </head>
 <body>
-  <div class="iframe-container">
-    <iframe src="//iframely.net/lUum5tF" allowfullscreen></iframe>
-  </div>
-
   <h1>I'm Peter Kamm<br />Your Doctor for Airports 🛫</h1>
   <p>
     I diagnose airport problems and prescribe innovative solutions — from terminal planning to next-gen baggage flows.
@@ -131,10 +96,6 @@
     <div class="service-card">Baggage Handling Systems</div>
     <div class="service-card">Urban-Airport Interface</div>
   </div>
-
-  <img class="image-banner" src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?auto=format&fit=crop&w=600&q=80" alt="Airport Aerial View" />
-
-  <img class="bottom-image" src="skyler-smith-9xdho4stJQ8-unsplash.jpg" alt="Full Width Airport Image" />
 
   <script>
     const services = document.getElementById("services");
